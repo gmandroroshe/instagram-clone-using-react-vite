@@ -1,0 +1,13 @@
+.sidebar {
+    background-color: var(--post-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    max-height: 100vh; /* Limits height to the viewport height */
+    overflow-y: auto; /* Adds scrollbar if content overflows */
+  }
+  
+  .sidebar__suggestions, .sidebar__profile {
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    padding: 20px;
+    gap: 20px; /* Space between sidebar and feed */
+  }
+  
+  .sidebar {
+    flex: 1; /* Takes up space on the left */
+    max-width: 300px;
+    min-width: 250px; /* Optional: set a minimum width for the sidebar */
+  }
+  
+  .feed {
+    flex: 3; /* Takes up more space on the right */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
